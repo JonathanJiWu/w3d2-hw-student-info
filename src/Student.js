@@ -1,15 +1,8 @@
-import React from 'react'
-import students from './data'
+import React from "react";
 
-const Student = () => {
-    
-    return (
-        <div>
-            students.map(i){
-i.name
-            }
-        </div>
-    )
-}
+const Student = (props) => {
+  console.log( props.students );
+  return <div>{/* <h3>{props.studentData.students}</h3> */}</div>;
+};
 
-export default Student
+export default Student;
